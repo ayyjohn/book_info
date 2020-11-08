@@ -21,3 +21,6 @@ for shelf in shelves_tree.find("shelves").findall("user_shelf"):
     name = shelf.find("name").text
     book_count = shelf.find("book_count").text
     print(name, book_count)
+
+      
+print()
